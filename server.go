@@ -8,15 +8,12 @@ import (
     "log"
     "math"
     "strconv"
-    _ "strings"
-    _ "image/jpeg"
     "image/png"
     "image/draw"
     "net/http"
     "regexp"
     "path"
     "path/filepath"
-    _ "fmt"
 )
 
 func Resize(writer io.Writer, path string, w int, h int) (error) {
